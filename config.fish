@@ -28,3 +28,11 @@ end
 function wireshark
 sudo wireshark
 end
+
+function gp
+git pull
+end
+
+function gb
+git branch -b $argv
+end
